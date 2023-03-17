@@ -1,0 +1,46 @@
+
+<link rel="stylesheet" href="/static/css/pack1.css">
+<br>
+<br>
+<ul><ul>
+<span class="text12 gray5">
+<a href="/"><img src="/static/img/home.jpg" width=12>DataDraw &gt;</a>
+<br>
+<br>
+
+<span class=text20>Examples set 6</span>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+View code:
+<a href="https://github.com/pepprseed/datadraw-examples/blob/main/examples6.py"  target="github"><span class=seqfont>examples6.py</span></a>
+
+<br>
+<br>
+These examples use a "multipanel technique", where a set of areas are set up side-by-side,
+<br>
+then plotting occurs in one area at a time.  This handles non-linear situations, i.e.
+<br>
+datetime values can be plotted directly in the business days view; chromosome coordinate 
+<br>
+notations eg. '14:27747800' can be plotted directly in the chromosome view.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>bizdays</i></b></span> &nbsp; &nbsp; Business / trading days 9:30am - 4pm.
+<br><br>
+{{ svgset.bizdays }}
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>chrview</i></b></span> &nbsp; &nbsp; Chromosomes / basepair coordinates plot with tooltips on data points.
+<br><br>
+{{ svgset.chrview }}
+<br>
+<br>
+<br>
+<br>
+

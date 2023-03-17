@@ -1,0 +1,82 @@
+
+<link rel="stylesheet" href="/static/css/pack1.css">
+
+<br>
+<br>
+
+<ul><ul>
+<span class="text12 gray5">
+<a href="/"><img src="/static/img/home.jpg" width=12>DataDraw &gt;</a>
+<br>
+<br>
+
+<span class=text20>Examples set 4</span>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+View code:
+<a href="https://github.com/pepprseed/datadraw-examples/blob/main/examples4.py"  target="github"><span class=seqfont>examples4.py</span></a>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>axisdemo</i></b></span> &nbsp; &nbsp; Various numeric and categorical axis options.
+<br><br>
+{{ svgset.axisdemo }}
+
+<br>
+<br>
+
+<span class=text16><b><i>Various date/time axis examples</i></b></span> &nbsp; &nbsp; 
+  Ranges are dynamically determined from the input data.
+<br><br>
+<i>axis_3days</i> . . . . 3 days with date shown on midnight crossing<br>
+{{ svgset.axis_3days }}
+<br><br><br><br>
+
+<i>axis_2days</i> . . . . 8 hours with date shown initially and on midnight crossing <br>
+{{ svgset.axis_2days }}
+<br><br><br><br>
+
+<i>axis_12years</i> . . . .  12+ years with minor tics at quarter-years. With histogram of incidence counts.<br>
+{{ svgset.axis_12years }}
+<br><br><br><br>
+
+<i>axis_3year</i> . . . .  3+ years with months; quarters and year crossings are shown<br>
+{{ svgset.axis_3years }}
+<br><br><br><br>
+
+<i>axis_3years_fy</i> . . . .  3+ years with months; quarters and fiscal year crossings (July 1)<br>
+{{ svgset.axis_3years_fy }}
+<br><br><br><br>
+
+<i>axis_3weeks</i> . . . .  3 weeks, weekdays with Sunday week boundaries shown<br>
+{{ svgset.axis_3weeks }}
+<br><br><br><br>
+
+<i>axis_3weeks_mon</i> . . . .  3 weeks, day of month with month boundaries shown<br>
+{{ svgset.axis_3weeks_mon }}
+<br><br><br><br>
+
+<i>axis_3weeks_webhits</i> . . . .  3 weeks, both weekday and day of month with month boundaries. 
+                 With histogram of incidence counts.<br>
+{{ svgset.axis_3weeks_webhits }}
+<br><br><br><br>
+
+<i>axis_48hours</i> . . . .  48 hours, terse AM/PM notation <br>
+{{ svgset.axis_48hours }}
+<br><br><br><br>
+
+<i>axis_48hours_partial</i> . . . .  23 hours with midnite crossing<br>
+{{ svgset.axis_48hours_partial }}
+<br><br><br><br>
+
+
+A business/trading hours datetime example can be seen in 
+<a href="{{ url_for('pages.exset6')}}">example set 6</a>.
+
+<br>
+<br>
+<br>
+<br>

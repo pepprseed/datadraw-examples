@@ -1,0 +1,75 @@
+
+<link rel="stylesheet" href="/static/css/pack1.css">
+
+<br>
+<br>
+<ul><ul>
+<span class="text12 gray5">
+<a href="/"><img src="/static/img/home.jpg" width=12>DataDraw &gt;</a>
+<br>
+<br>
+
+<span class=text20>Examples set 1</span>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+View code:
+<a href="https://github.com/pepprseed/datadraw-examples/blob/main/examples1.py" target="github"><span class=seqfont>examples1.py</span></a>
+<br>
+<br>
+These examples have also been captured as <a href="{{ url_for('pages.exset1_static')}}">static svg files</a> to see context differences.
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>hello_world</i></b></span> &nbsp; &nbsp;  Invoke the built-in test pattern
+<br><br>
+{{ svgset.hello_world }}
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>bargraph1</i></b></span> &nbsp; &nbsp;  Simple bar graph with errorbars
+<br><br>
+{{ svgset.bargraph1 }}
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>curves1</i></b></span> &nbsp; &nbsp;  Curves with datapoints, errorbars, tooltips, legend
+<br><br>
+{{ svgset.curves1 }}
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>scatterplot1</i></b></span> &nbsp; &nbsp;  Datapoints with tooltips and transparency
+<br><br>
+{{ svgset.scatterplot1 }}
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>webhits1</i></b></span> &nbsp; &nbsp; Datetime X space with dynamic ranging, histogram
+<br><br>
+{{ svgset.webhits1 }}
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>heatmap1</i></b></span> &nbsp; &nbsp; Heatmap display from 10x10 matrix of data values
+<br><br>
+{{ svgset.heatmap1 }}
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>pie1</i></b></span> &nbsp; &nbsp; Pie chart with legend
+<br><br>
+{{ svgset.pie1 }}
+<br>
+<br>
+<br>

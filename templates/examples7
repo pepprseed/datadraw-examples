@@ -1,0 +1,39 @@
+
+<link rel="stylesheet" href="/static/css/pack1.css">
+<br>
+<br>
+<ul><ul>
+<span class="text12 gray5">
+<a href="/"><img src="/static/img/home.jpg" width=12>DataDraw &gt;</a>
+<br>
+<br>
+
+<span class=text20>Examples set 7</span>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+View code:
+<a href="https://github.com/pepprseed/datadraw-examples/blob/main/examples7.py" target="github"><span class=seqfont>examples7.py</span></a>
+
+<br>
+<br>
+Some specialized science examples.
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>secchi1</i></b></span> &nbsp; &nbsp; Secchi lake depth readings to measure water clarity.
+<br><br>
+{{ svgset.secchi1 }}
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>windbarbs1</i></b></span> &nbsp; &nbsp; Wind speeds at different altitudes (meteorology).
+<br><br>
+{{ svgset.windbarbs1 }}
+<br>
+<br>
+<br>
+<br>
+

@@ -1,0 +1,53 @@
+
+<link rel="stylesheet" href="/static/css/pack1.css">
+
+<br>
+<br>
+<ul><ul>
+<span class="text12 gray5">
+<a href="/"><img src="/static/img/home.jpg" width=12>DataDraw &gt;</a>
+<br>
+<br>
+
+<span class=text20>Examples set 5</span>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+View code:
+<a href="https://github.com/pepprseed/datadraw-examples/blob/main/examples5.py"  target="github"><span class=seqfont>examples5.py</span></a>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>distribs1</i></b></span> &nbsp; &nbsp; Tukey box-whisker plots and beeswarm plots.
+<br><br>
+{{ svgset.distribs1 }}
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>survival1</i></b></span> &nbsp; &nbsp; KM survival plot with censor events.
+<br><br>
+{{ svgset.survival1 }}
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>freqbins1</i></b></span> &nbsp; &nbsp; Determine numeric bin frequency distribution and render histogram.
+<br><br>
+{{ svgset.freqbins }}
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>freqcats1</i></b></span> &nbsp; &nbsp; Determine categorical frequency distribution and render histogram.
+<br><br>
+{{ svgset.freqcats }}
+<br>
+<br>
+<br>
+<br>

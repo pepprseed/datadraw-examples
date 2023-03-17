@@ -1,0 +1,49 @@
+
+<link rel="stylesheet" href="/static/css/pack1.css">
+
+<br>
+<br>
+<ul><ul>
+<span class="text12 gray5">
+<a href="/"><img src="/static/img/home.jpg" width=12>DataDraw &gt;</a>
+<br>
+<br>
+
+<span class=text20>Examples set 3</span>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+View code:
+<a href="https://github.com/pepprseed/datadraw-examples/blob/main/examples3.py"  target="github"><span class=seqfont>examples3.py</span></a>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<span class=text16><b><i>elements1</i></b></span> &nbsp; &nbsp; Legend demo, various shapes / elements. 
+<br><br>
+{{ svgset.elements1 }}
+<br>
+<br>
+<br>
+<br>
+
+
+<span class=text16><b><i>datapoints1</i></b></span> &nbsp; &nbsp;  Various available datapoint symbols / glyphs.
+<br><br>
+{{ svgset.datapoints1 }}
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<span class=text16><b><i>image_annot1</i></b></span> &nbsp; &nbsp; Adding vector annotation (blue) to existing CTscan jpg image.
+<br><br>
+{{ svgset.image_annot1 }}
+<br>
+<br>
+<br>
+<br>

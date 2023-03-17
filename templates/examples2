@@ -1,0 +1,87 @@
+
+<link rel="stylesheet" href="/static/css/pack1.css">
+
+<br>
+<br>
+<ul><ul>
+<span class="text12 gray5">
+<a href="/"><img src="/static/img/home.jpg" width=12>DataDraw &gt;</a>
+<br>
+<br>
+
+<span class=text20>Examples set 2</span>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+View code:
+<a href="https://github.com/pepprseed/datadraw-examples/blob/main/examples2.py" target="github"><span class=seqfont>examples2.py</span></a>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<span class=text16><b><i>barmodes</i></b></span> &nbsp; &nbsp; Bars in various modes / orientations.
+<br><br>
+<table><tr>
+<td>Column bars<br>
+   {{ svgset.bars_v }}
+</td>
+<td width=20></td>
+<td>Clustered<br>
+   {{ svgset.bars_v_clustered }}
+</td>
+<td width=20></td>
+<td>Stacked<br>
+   {{ svgset.bars_v_stacked }}
+</td></tr>
+
+<tr>
+<td>Horizontal bars<br>
+   {{ svgset.bars_h }}
+</td>
+<td width=20></td>
+<td>Clustered<br>
+   {{ svgset.bars_h_clustered }}
+</td>
+<td width=20></td>
+<td>Stacked <br>
+   {{ svgset.bars_h_stacked }}
+</td>
+</tr></table>
+<br>
+<br>
+<br>
+<br>
+
+
+<span class=text16><b><i>curvemodes</i></b></span> &nbsp; &nbsp;  Lineplots with fill options.
+<br><br>
+<table><tr>
+<td>Curves only<br><br>
+   {{ svgset.curves }}
+</td>
+<td width=20></td>
+<td>With &plusmn;SEM bands<br><br>
+   {{ svgset.curves_errbands }}
+</td>
+<td width=20></td>
+<td>Filled area under curve, and 'parkinglot' legend format<br><br>
+   {{ svgset.curves_fillauc }}
+</td>
+</tr></table>
+<br>
+<br>
+<br>
+<br>
+
+<span class=text16><b><i>scatterplot</i></b></span> &nbsp; &nbsp; Illustrating transparency, green combo symbols
+<br><br>
+{{ svgset.scatterplot }}
+
+<br>
+<br>
+<br>
+<br>
+
+

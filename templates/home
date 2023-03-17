@@ -1,0 +1,90 @@
+
+<link rel="stylesheet" href="/static/css/pack1.css">
+<br>
+<br>
+<ul><ul>
+<span class=text20>DataDraw</span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<a href="http://datadraw.org">http://datadraw.org</a>
+<br>
+<br>
+<table width=700><tr><td>
+<span class="text12 gray7">
+<span class="seqfont">pip install datadraw</span>
+<br><br>
+
+A python function library class to produce many kinds of automated,
+presentable, data-driven 2-D plots / charts / graphics / image annotations in SVG.
+It's an all-python server-side solution, producing SVG results that can
+be embedded directly into html web pages or saved as .svg files.  
+<br>
+No javascript, css, or svg knowledge is required.
+&nbsp; 
+<nobr><a href="https://en.wikipedia.org/wiki/MIT_License" target=_blank>MIT License</a></nobr>
+<br><br>
+
+Axis and legend rendering, tooltips, linkouts, automatic ranging, basic statistics,
+draw primitives.  Handles numeric, log, categorical, and datetime data types.
+Leverages SVG's fonts, colors, transparency, image handling, and other aspects.
+Works well within frameworks such as Flask or Django.  Limited interactivity /
+reactivity use-cases.
+<br><br>
+
+Tested on linux python 3.6 and 3.9 using recent browser versions; believed to be thread-safe.
+</td></tr></table>
+
+<br>
+<br>
+<br>
+<span class="text12 gray7">
+<span class=text18>Available examples</span>
+<br>
+<small>(Use &nbsp; View Page Source &nbsp; to see the embedded SVG code)</small>
+<br>
+<br>
+<span class=text16><a href="{{ url_for('pages.exset1')}}">&bull; Set 1</a></span>
+  .... &nbsp; hello_world &nbsp; bargraph1 &nbsp; curves1 &nbsp; scatterplot1 &nbsp; webhits1 &nbsp; heatmap1 &nbsp; pie1
+<br>
+<br>
+<span class=text16><a href="{{ url_for('pages.exset2')}}">&bull; Set 2</a></span>
+  .... &nbsp; more bargraphs &nbsp; &nbsp; more lineplots &nbsp; &nbsp; a bigger scatterplot
+<br>
+<br>
+<span class=text16><a href="{{ url_for('pages.exset3')}}">&bull; Set 3</a></span>
+  .... &nbsp; legend demo, shapes, elements &nbsp; &nbsp; datapoint symbols &nbsp; &nbsp; jpg image annotation
+<br>
+<br>
+<span class=text16><a href="{{ url_for('pages.exset4')}}">&bull; Set 4</a></span>
+  .... &nbsp; numeric, categorical axes &nbsp; &nbsp; datetime axes 
+<br>
+<br>
+<span class=text16><a href="{{ url_for('pages.exset5')}}">&bull; Set 5</a></span>
+  .... &nbsp; boxplots, beeswarm plots &nbsp; &nbsp; survival plot &nbsp; &nbsp; distribution histograms
+<br>
+<br>
+<span class=text16><a href="{{ url_for('pages.exset6')}}">&bull; Set 6</a></span>
+  .... &nbsp; business/trading days &nbsp; &nbsp; human chromosomes view
+<br>
+<br>
+<span class=text16><a href="{{ url_for('pages.exset7')}}">&bull; Set 7</a></span>
+  .... &nbsp; Secchi depth readings &nbsp; &nbsp; windbarbs
+<br>
+<br>
+<span class=text16><a href="{{ url_for('pages.exset8')}}">&bull; Set 8</a></span>
+  .... &nbsp; a real-world genome utility for finding <small>CRISPRs</small>
+<br>
+<br>
+<span class=text14><a href="https://github.com/pepprseed/datadraw-examples" target="github">
+   &bull; datadraw-examples</a></span> .... &nbsp;    {# separate line so it doesn't get .html appended #}
+   a simple Flask app that includes most of the above examples
+<br>
+<br>
+<br>
+<br>
+<span class=text18><a href="{{ url_for('pages.docs')}}">&bull; Functions reference / documentation</a>
+
+<br>
+<br>
+<br>
+<br>
+
